@@ -1,0 +1,17 @@
+[
+  {
+    "codigo": "001",
+    "nome": "Alto-falante JBL 12",
+    "marca": "JBL",
+    "categoria": "Som Automotivo",
+    "descricao": "350W RMS",
+    "manual": "pdf/manual-jbl.pdf"
+  },
+  {
+    "codigo": "002",
+    "nome": "Taramps DS800",
+    "marca": "Taramps",
+    "categoria": "Amplificador",
+    "descricao": "800W RMS"
+  }
+]
