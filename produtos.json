@@ -27,5 +27,34 @@
         "arquivo": "pdf/manual-0001.pdf"
       }
     ]
+  },
+   {
+    "codigo": "0002",
+    "nome": "MOldura polo",
+    "marca": "Permak",
+    "descricao": "Moldura top para polo vw automotivas de alta performance.",
+
+    "imagem": "imagens/0002/principal.jpg",
+
+    "galeria": [
+      "imagens/0002/principal.png",
+      "imagens/0002/1.png",
+      "imagens/0002/2.jpeg",
+      "imagens/0002/3.jpeg"
+    ],
+
+    "especificacoes": {
+      "Potência RMS": "800W",
+      "Impedância": "2 Ohms",
+      "Tensão": "12V",
+      "Consumo Máximo": "70A"
+    },
+
+    "downloads": [
+      {
+        "titulo": "Manual do Produto",
+        "arquivo": "pdf/manual-0001.pdf"
+      }
+    ]
   }
 ]
