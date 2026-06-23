@@ -1,17 +1,31 @@
 [
   {
-    "codigo": "001",
-    "nome": "Alto-falante JBL 12",
-    "marca": "JBL",
-    "categoria": "Som Automotivo",
-    "descricao": "potência 500 watts novo",
-    "manual": "pdf/manual-jbl.pdf"
-  },
-  {
-    "codigo": "002",
-    "nome": "Taramps DS800",
+    "codigo": "0001",
+    "nome": "Amplificador Digital X",
     "marca": "Taramps",
-    "categoria": "Amplificador",
-    "descricao": "800W RMS"
+    "descricao": "Amplificador digital desenvolvido para aplicações automotivas de alta performance.",
+
+    "imagem": "imagens/0001/principal.jpg",
+
+    "galeria": [
+      "imagens/0001/principal.jpg",
+      "imagens/0001/1.jpg",
+      "imagens/0001/2.jpg",
+      "imagens/0001/3.jpg"
+    ],
+
+    "especificacoes": {
+      "Potência RMS": "800W",
+      "Impedância": "2 Ohms",
+      "Tensão": "12V",
+      "Consumo Máximo": "70A"
+    },
+
+    "downloads": [
+      {
+        "titulo": "Manual do Produto",
+        "arquivo": "pdf/manual-0001.pdf"
+      }
+    ]
   }
 ]
