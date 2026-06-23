@@ -2,26 +2,32 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Catálogo</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Catálogo de Produtos</title>
 
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
-<header class="hero">
-    <h1>Catálogo de Produtos</h1>
-    <p>Pesquise por código, nome ou marca</p>
+<header>
+    <div class="container">
 
-    <input
-        type="text"
-        id="busca"
-        placeholder="Digite sua pesquisa..."
-    >
+        <h1>Catálogo de Produtos</h1>
+
+        <input
+            id="busca"
+            type="text"
+            placeholder="Digite código, nome ou marca..."
+        >
+
+    </div>
 </header>
 
-<main>
+<main class="container">
+
     <div id="resultado"></div>
+
 </main>
 
 <script src="assets/js/app.js"></script>
