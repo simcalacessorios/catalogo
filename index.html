@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World - Cloudflare Pages</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catálogo</title>
+
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Hello World 🚀</h1>
-        <p>Meu primeiro deploy utilizando Cloudflare Pages.</p>
-    </div>
+
+<header class="hero">
+    <h1>Catálogo de Produtos</h1>
+    <p>Pesquise por código, nome ou marca</p>
+
+    <input
+        type="text"
+        id="busca"
+        placeholder="Digite sua pesquisa..."
+    >
+</header>
+
+<main>
+    <div id="resultado"></div>
+</main>
+
+<script src="assets/js/app.js"></script>
+
 </body>
 </html>
